@@ -15,13 +15,13 @@
 }
 
 .date {
-    font-family: Abril Fatface;
+    font-family: Roboto Slab;
     color: #777;
     font-weight: lighter;
 }
 
 .title {
-    font-family: Roboto Slab;
+    font-family: Abril Fatface;
     text-align: center;
     font-weight: bolder;
     font-size: 3em;
@@ -33,6 +33,8 @@ hr {
     border-width: 0.05em; 
     border-color: rgb(204, 203, 203);
     opacity: 0.4;
+    margin-top: 0.1em;
+    margin-bottom: 0.1em;
 }
 
 a:link {
@@ -48,6 +50,11 @@ a:visited {
     color: eee;
 }
 
+ul {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
 nav ul a {
     list-style: none;
     text-align: center;
@@ -55,19 +62,33 @@ nav ul a {
 }
 
 nav li { 
-    display: inline; 
+    display: inline-block; 
     text-decoration: none;
     height: 1em;
     color: #777;
     font-size: 0.8em;
     padding-right: 0.5em;
+    
 }
 
+.sticky {
+    position: sticky;
+    top: 0;
+    Width: 100%;
+    background-color: #fff;
+}
+
+h2 {
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+}
 
 .name-style {
     color: red;
     font-weight: bold;
     font-size: 1em;
+    margin-top: 0.7em;
+    margin-bottom: 0.7em;
 }
 
 .source-sans-pro-font {
